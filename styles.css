@@ -1,0 +1,141 @@
+body {
+    background-color: #fafafa;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+}
+
+main .content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 736px;
+    width: 100%;
+    margin: 30px auto;
+}
+
+main .content .loginForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+}
+
+main .content .loginForm,
+main .content .loginForm .login,
+main .content .loginForm .login form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+main .content >div {
+    padding: 20px 30px;
+}
+
+main .content .img {
+    width: 50%;
+}
+
+main .content .loginForm .img img {
+    height: 100%;
+    align-self: baseline;
+}
+
+main .content .loginForm .login {
+    border: 1px solid #dbdbdb;
+    width: -webkit-fill-available;
+    padding: 20px;
+}
+
+main .content .loginForm .login img {
+    width: 175px;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+main .content .loginForm .login input {
+    background: #fafafa;
+    border: 1px solid #dbdbdb;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    margin: 0;
+    outline: 0;
+    overflow: hidden;
+    padding: 9px 0 7px 8px;
+    text-overflow: ellipsis;
+    margin: 5px 0;
+    border-radius: 5px;
+    width: 90%;
+}
+
+main .content .loginForm .login button {
+    background-color: #0095f6;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    text-overflow: ellipsis;
+    width: 92%;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 0;
+}
+
+main .content .loginForm .fb-login {
+    color: #385185;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 20px 0;
+}
+
+main .content .loginForm .forgot {
+    color: #00376b;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 12px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+}
+
+main .content .loginForm .subscribe {
+    color: #262626;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #dbdbdb;
+    width: -webkit-fill-available;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+main .content .loginForm .subscribe a {
+    color: #0095f6;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+main .content .loginForm .app {
+    color: #262626;
+    font-size: 14px;
+    text-align: center;
+    width: -webkit-fill-available;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+main .content .loginForm .app .apps-row {
+    display: flex;
+}
+
+main .content .loginForm .app .apps-row img {
+    height: 40px;
+    padding: 0 5px;
+}
